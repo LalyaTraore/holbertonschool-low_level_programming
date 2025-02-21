@@ -1,15 +1,18 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
-* print_alphabet - print
-* main - entry
-* Return: 0
+* print_alphabet_x10 - entry
 */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 char a;
+int b;
+for (b = 0; b < 10; b++)
+{
 for (a = 'a'; a <= 'z'; a++)
 _putchar(a);
 _putchar('\n');
+}
 }
